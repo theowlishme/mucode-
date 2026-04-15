@@ -19,7 +19,7 @@ int secondLargest(int arr[], int N)
         }
     }
 
-    if(!found)
+    if(found==0)
         return -1;
     return slargest;
 }
